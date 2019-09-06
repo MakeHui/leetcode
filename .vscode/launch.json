@@ -9,7 +9,9 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/434.字符串中的单词数.js"
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "outFiles": ["${fileDirname}/*.js"]
         }
     ]
 }
